@@ -1,0 +1,295 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{B5302696-C24D-4198-905C-ECDC701D4B19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link">
+      <UniqueIdentifier>{61184F07-66F6-4918-8D21-5A638EA6A4EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib">
+      <UniqueIdentifier>{2A2FE198-AAF5-4557-8DB8-16F011C9A57F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link">
+      <UniqueIdentifier>{9C70DC91-A8C5-4541-A882-1C53B875B769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include">
+      <UniqueIdentifier>{228EE31C-D9E9-4026-9A05-5FBD5425AF2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include\ableton">
+      <UniqueIdentifier>{46B642E2-1710-4CB1-B276-C29F384992D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include\ableton\platforms">
+      <UniqueIdentifier>{6A2C0734-B656-436E-959E-B77E1B72A679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\link\include\ableton\platforms\asio">
+      <UniqueIdentifier>{DB4627EA-9E1B-4606-B3E8-08EC34F7BBCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3">
+      <UniqueIdentifier>{4EE091F2-FC71-460A-A6D0-8F618F043405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3\common">
+      <UniqueIdentifier>{30D0F333-AB5C-47CA-BE82-A4948E7C2FE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3\host">
+      <UniqueIdentifier>{58C651AB-E4DE-4774-AA96-3F753B334464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Ableton Link\lib\ASIOSDK2.3\host\pc">
+      <UniqueIdentifier>{04DEF0BC-D7FB-4100-A6EF-75EF192912F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui">
+      <UniqueIdentifier>{3E5A00A2-7721-4C2A-8EFD-22711DE30BA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\include">
+      <UniqueIdentifier>{57E60394-6719-4B2C-9017-A0E27904AABC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\lib">
+      <UniqueIdentifier>{0E6E833A-4D07-420D-96CC-F3BA25CDBDB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\lib\imgui">
+      <UniqueIdentifier>{D934C7D0-FCE0-42B2-923F-1C1E86E90644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\src">
+      <UniqueIdentifier>{7CF0AF1B-6674-4B59-A359-32860A7C5FBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\lib\ImGuizmo">
+      <UniqueIdentifier>{5C55A6B5-354B-4284-B606-C4E369351DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2">
+      <UniqueIdentifier>{8D528AC2-F6DA-4946-9930-A69B587FE24D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2\include">
+      <UniqueIdentifier>{38DCD1EE-5186-4DE5-8D4F-94D23ECCC286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2\lib">
+      <UniqueIdentifier>{2E1920A1-3A7E-40F0-B448-F686100AE892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2\src">
+      <UniqueIdentifier>{78E7B1D8-A20C-4170-986B-4F12E5AFF5E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-SDA">
+      <UniqueIdentifier>{72278349-7CE1-4DFD-AD76-4A828BC33D55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-SDA\include">
+      <UniqueIdentifier>{8AEE639F-CE4A-433B-BE1C-D67CF3EB21C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-SDA\src">
+      <UniqueIdentifier>{1CECB03D-E48D-4896-86E7-EEB631452BF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebSocketPP">
+      <UniqueIdentifier>{78479F58-F4D7-439B-BEA9-20C3635A9F68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebSocketPP\src">
+      <UniqueIdentifier>{BDD57608-4BA2-41A4-9B6C-A9679E56228F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ISFAblLinkSpoutOutApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\ISFAblLinkSpoutOutApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms\Config.hpp">
+      <Filter>Blocks\Ableton Link\lib\link\include\ableton\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms\asio\AsioTimer.hpp">
+      <Filter>Blocks\Ableton Link\lib\link\include\ableton\platforms\asio</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\common\asio.cpp">
+      <Filter>Blocks\Ableton Link\lib\ASIOSDK2.3\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\host\asiodrivers.cpp">
+      <Filter>Blocks\Ableton Link\lib\ASIOSDK2.3\host</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\host\pc\asiolist.cpp">
+      <Filter>Blocks\Ableton Link\lib\ASIOSDK2.3\host\pc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\CinderImGui.h">
+      <Filter>Blocks\ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imconfig.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_internal.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\src\CinderImGui.cpp">
+      <Filter>Blocks\ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_draw.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\ImGuizmo\ImGuizmo.cpp">
+      <Filter>Blocks\ImGui\lib\ImGuizmo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiConstants.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiExceptions.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiHeaders.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiHub.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiIn.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiMessage.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiOut.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtError.h">
+      <Filter>Blocks\Midi2\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.h">
+      <Filter>Blocks\Midi2\lib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiHub.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiIn.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiMessage.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiOut.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.cpp">
+      <Filter>Blocks\Midi2\lib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\LiveParam.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAAnimation.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAFbo.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDALog.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAMix.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDARouter.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDASession.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDASettings.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAShader.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDATexture.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAUtils.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\SDAWebsocket.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-SDA\include\Watchdog.h">
+      <Filter>Blocks\Cinder-SDA\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\LiveParam.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAAnimation.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAFbo.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDALog.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAMix.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDARouter.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDASession.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDASettings.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAShader.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDATexture.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAUtils.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-SDA\src\SDAWebsocket.cpp">
+      <Filter>Blocks\Cinder-SDA\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.cpp">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.cpp">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.cpp">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.h">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.h">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.h">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
