@@ -51,7 +51,7 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <AdditionalIncludeDirectories>..\include;"..\..\..\Cinder\include";..\..\..\Cinder\blocks\Cinder-AbletonLink\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\modules\asio-standalone\asio\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\modules\catch\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms\asio;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms\windows;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\common;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\common\host;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\common\host\pc;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\host;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\host\pc;..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui;..\..\..\Cinder\blocks\Cinder-ImGui\include;..\..\..\Cinder\blocks\Cinder-MIDI2\include;..\..\..\Cinder\blocks\Cinder-MIDI2\lib;..\..\..\Cinder\blocks\Cinder-MIDI2\src;..\..\..\Cinder\blocks\Cinder-SDA\include;..\..\..\Cinder\blocks\Cinder-SDA\src;..\..\..\Cinder\blocks\Cinder-Spout\include;..\..\..\Cinder\blocks\Cinder-WebSocketPP\src;..\..\..\Cinder\include\asio</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;_DEBUG;ASIO_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -81,7 +81,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>..\include;"..\..\..\Cinder\include";..\..\..\Cinder\blocks\Cinder-AbletonLink\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\modules\asio-standalone\asio\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\modules\catch\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms\asio;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\link\include\ableton\platforms\windows;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\common;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\common\host;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\common\host\pc;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\host;..\..\..\Cinder\blocks\Cinder-AbletonLink\lib\ASIOSDK2.3\host\pc;..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui;..\..\..\Cinder\blocks\Cinder-ImGui\include;..\..\..\Cinder\blocks\Cinder-MIDI2\include;..\..\..\Cinder\blocks\Cinder-MIDI2\lib;..\..\..\Cinder\blocks\Cinder-MIDI2\src;..\..\..\Cinder\blocks\Cinder-SDA\include;..\..\..\Cinder\blocks\Cinder-SDA\src;..\..\..\Cinder\blocks\Cinder-Spout\include;..\..\..\Cinder\blocks\Cinder-WebSocketPP\src;..\..\..\Cinder\include\asio</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0601;_WINDOWS;NOMINMAX;NDEBUG;ASIO_NO_DEPRECATED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
@@ -159,7 +159,6 @@
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_draw.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp" />
-    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\ImGuizmo\ImGuizmo.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiHub.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiIn.cpp" />
     <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiMessage.cpp" />
